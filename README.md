@@ -7,7 +7,7 @@ The app simulates live stock updates, publishes them to a Kafka topic, and consu
 
 ## 🧠 Overview
 
-The **Kafka Stock Price App** demonstrates event-driven microservice communication using Kafka as the message broker.  
+Kafka Stock Price App is a simple Spring Boot application built to demonstrate how Apache Kafka works for real-time message streaming. 
 It consists of three main services:
 
 1. **Zookeeper** – manages Kafka brokers and cluster metadata  
@@ -29,5 +29,5 @@ Run docker-compose up --build to start Zookeeper, Kafka, and the app.
 The producer will automatically begin sending random stock prices to Kafka.
 The consumer will read and display those stock updates in the console.
 The Kafka Stock Price App provides a simple yet powerful way to understand how real-time data streaming works using Apache Kafka and Spring Boot.
-It’s ideal for learning event-driven architecture and practicing microservice communication patterns.
+
 
